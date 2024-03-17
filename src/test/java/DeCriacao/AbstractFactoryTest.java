@@ -23,6 +23,7 @@ public class AbstractFactoryTest {
         Assert.assertTrue(pb instanceof ProductB1);
     }
 
+    @Test
     public void fabrica2Test() {
         AbstractFactory factory = new ConcreteFactory2();
         AbstractProductA pa = factory.createProductA();
